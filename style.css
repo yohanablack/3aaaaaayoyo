@@ -71,9 +71,8 @@ body {
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
-
 .aba-conteudo.ativo{
-    display: block;
+    display:block;
 }
 
 .aba-conteudo{
@@ -84,13 +83,16 @@ body {
     font-size: 28px;
     text-align: center;
 }
-
 .aba-conteudo-titulo-secundario{
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
 }
-      
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
@@ -104,4 +106,3 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
-
